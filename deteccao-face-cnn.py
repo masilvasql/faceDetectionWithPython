@@ -1,9 +1,9 @@
 import cv2
 import dlib
 
-imagem = cv2.imread("fotos/grupo.0.jpg")
+imagem = cv2.imread("fotos/grupo.1.jpg")
 detector = dlib.cnn_face_detection_model_v1("recursos/mmod_human_face_detector.dat")
-facesDetectadas = detector(imagem, 2)
+facesDetectadas = detector(imagem, 1)
 print(facesDetectadas)
 print("Faces detectadas: ", len(facesDetectadas))
 for face in facesDetectadas:
