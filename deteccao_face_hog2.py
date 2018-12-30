@@ -6,7 +6,7 @@ subdetector = ["Olhar a frente", "Vista a esquerda", "Vista a direita",
 
 imagem = cv2.imread("fotos/teste.3.jpg")
 detector = dlib.get_frontal_face_detector()
-facesDetectadas, pontuacao, idx = detector.run(imagem, 5    ,-0.5)
+facesDetectadas, pontuacao, idx = detector.run(imagem, 3    ,-0.5)
 #print(facesDetectadas)
 #print(pontuacao)
 #print(idx)
