@@ -32,7 +32,7 @@ def imprimeLinhas(imagem, pontosFaciais):
 
 
 fonte = cv2.FONT_HERSHEY_COMPLEX_SMALL
-imagem = cv2.imread("fotos/treinamento/ronald.0.0.jpg")
+imagem = cv2.imread("fotos/treinamento/ronald.0.1.jpg")
 detectorFace = dlib.get_frontal_face_detector()
 detectorDePontosFaciais = dlib.shape_predictor("recursos/shape_predictor_68_face_landmarks.dat")
 facesDetectadas = detectorFace(imagem, 2)
