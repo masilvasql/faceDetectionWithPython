@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c634c89-7c7a-4ad6-90a8-f3274c907966" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reconhecimentorn_treinamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reconhecimentorn_teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_faciais.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_faciais.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/descritores_rn.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/indices_rn.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fotos/teste.3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fotos/teste.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fotos/teste2.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +17,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reconhecimentorn_treinamento.py">
+        <entry file="file://$PROJECT_DIR$/reconhecimentorn_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="357">
+              <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/reconhecimento-yale-treinamento (1).py" />
         <option value="$PROJECT_DIR$/pontos_faciais.py" />
         <option value="$PROJECT_DIR$/reconhecimentorn_treinamento.py" />
+        <option value="$PROJECT_DIR$/reconhecimentorn_teste.py" />
       </list>
     </option>
   </component>
@@ -115,28 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reconhecimentorn_treinamento">
-    <configuration name="deteccao_face_hog2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="reconhecimentoFacialComPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deteccao_face_hog2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.reconhecimentorn_teste">
     <configuration name="pontos_faciais" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="reconhecimentoFacialComPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +180,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reconhecimentorn_teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reconhecimentoFacialComPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reconhecimentorn_teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="reconhecimentorn_treinamento" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="reconhecimentoFacialComPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reconhecimentorn_teste" />
         <item itemvalue="Python.reconhecimentorn_treinamento" />
         <item itemvalue="Python.pontos_faciais" />
         <item itemvalue="Python.reconhecimento-yale-treinamento (2)" />
         <item itemvalue="Python.reconhecimento-yale-treinamento (1)" />
-        <item itemvalue="Python.deteccao_face_hog2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,8 +253,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,6 +384,16 @@
           <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reconhecimentorn_teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
