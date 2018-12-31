@@ -9,7 +9,7 @@ detectorFace =dlib.get_frontal_face_detector()
 detectorPontos = dlib.shape_predictor('recursos/shape_predictor_68_face_landmarks.dat')
 reconhecimentoFacial = dlib.face_recognition_model_v1('recursos/dlib_face_recognition_resnet_model_v1.dat')
 indices = np.load("recursos/indices_rn.pickle")
-descritoresFaciais = "recursos/descritores_rn.npy"
+descritoresFaciais = np.load("recursos/descritores_rn.npy")
 
 for arquivo in glob.glob(os.path.join("fotos","*.jpg")):
     imagem = cv2.imread(arquivo)
@@ -22,7 +22,10 @@ for arquivo in glob.glob(os.path.join("fotos","*.jpg")):
         npArrayDescritorFacial = np.asarray(listaDescritorFacial, dtype=np.float64)
         npArrayDescritorFacial = npArrayDescritorFacial[np.newaxis, :]
 
+        distancias = np.linalg.norm(npArrayDescritorFacial - descritoresFaciais, axis=1) #calculo distancia euclidiana
+        print("distancias: {}".format(distancias))
         cv2.rectangle(imagem, (e,t), (d,b), (0,255,255),2)
+
     cv2.imshow("Detector hog ", imagem)
     cv2.waitKey(0)
 cv2.destroyAllWindows()

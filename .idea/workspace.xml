@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c634c89-7c7a-4ad6-90a8-f3274c907966" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reconhecimentorn_teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/teste.3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/teste.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos/teste2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconhecimentorn_teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconhecimentorn_teste.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reconhecimentorn_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+            <state relative-caret-position="243">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -247,14 +244,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,12 +305,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotos/teste.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fotos/teste2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fotos/teste.3.jpg" />
+    <entry file="file://$PROJECT_DIR$/fotos/teste2.jpg" />
     <entry file="file://$PROJECT_DIR$/comparativo_hog_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -325,9 +317,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotos/teste.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fotos/teste.jpg" />
     <entry file="file://$PROJECT_DIR$/fotos/grupo.1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -361,13 +351,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reconhecimento-yale-treinamento (1).py" />
-    <entry file="file://$USER_HOME$/Downloads/reconhecimento-yale-treinamento (1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/reconhecimento-yale-treinamento (1).py" />
     <entry file="file://$PROJECT_DIR$/pontos_faciais.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -390,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reconhecimentorn_teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+        <state relative-caret-position="243">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
