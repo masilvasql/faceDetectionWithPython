@@ -10,6 +10,7 @@ detectorPontos = dlib.shape_predictor('recursos/shape_predictor_68_face_landmark
 reconhecimentoFacial = dlib.face_recognition_model_v1('recursos/dlib_face_recognition_resnet_model_v1.dat')
 indices = np.load("recursos/indices_rn.pickle")
 descritoresFaciais = np.load("recursos/descritores_rn.npy")
+limiar = 0.55
 
 for arquivo in glob.glob(os.path.join("fotos","*.jpg")):
     imagem = cv2.imread(arquivo)
@@ -23,8 +24,18 @@ for arquivo in glob.glob(os.path.join("fotos","*.jpg")):
         npArrayDescritorFacial = npArrayDescritorFacial[np.newaxis, :]
 
         distancias = np.linalg.norm(npArrayDescritorFacial - descritoresFaciais, axis=1) #calculo distancia euclidiana
-        print("distancias: {}".format(distancias))
+        #print("distancias: {}".format(distancias))
+        minimo = np.argmin(distancias)
+        #print(minimo)
+        distanciaMinima = distancias[minimo]
+        #print(distanciaMinima)
+        if(distanciaMinima <= limiar):
+            nome =os.path.split(indices[minimo])[1].split(".")[0]
+        else:
+            nome = ' '
         cv2.rectangle(imagem, (e,t), (d,b), (0,255,255),2)
+        texto = "{} {:.4f}".format(nome, distanciaMinima)
+        cv2.putText(imagem, texto, (d, t), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.5,(0,255,0))
 
     cv2.imshow("Detector hog ", imagem)
     cv2.waitKey(0)
